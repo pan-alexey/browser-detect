@@ -1,0 +1,21 @@
+
+{
+  "bail": true,
+  "verbose": true,
+  "roots": ["<rootDir>/"],
+  "setupFilesAfterEnv":  ["<rootDir>/jest.setup.js"],
+  "transform": {
+    "^.+\\.(t|j)sx?$": "ts-jest"
+  },
+  "testTimeout": 5000,
+  "testMatch": [
+    "**/+(*.)+(spec|test).+(ts)"
+  ],
+  "modulePathIgnorePatterns": ["__mocks__"],
+  "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"],
+  "testPathIgnorePatterns": [
+    "/node_modules/",
+    "/build/"
+  ]
+}
+  

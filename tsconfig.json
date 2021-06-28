@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "allowJs": true,
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "strictPropertyInitialization": false,
+    "noImplicitAny": false,
+    "noImplicitThis": false,
+    "strictNullChecks": false,
+    "removeComments": false,
+    "esModuleInterop": true,
+    "strict": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+  },
+  "exclude": [
+    "node_modules",
+    "**/.build/.*"
+  ],
+  "include": ["src/*"],
+  "files": [
+    "index.d.ts"
+  ]
+}
